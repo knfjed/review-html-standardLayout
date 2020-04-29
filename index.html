@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>standard layout</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;700&family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <img src="images/logo.png" />
       <nav>
         <ul>
-          <li><a class="header-nav" href="#header">HOME</li>
+          <li><a class="header-nav" href="#header">HOME</a></li>
           <li><a class="header-nav" href="http://twitter.com">ABOUT</a></li>
           <li><a class="header-nav" href="#news">NEWS</a></li>
           <li><a class="header-nav" href="#article">ARTICLES</a></li>
@@ -41,7 +44,6 @@
               新しい要素が増えて大幅に表現力が広がったHTML5 / CSS3を活用して....
             </p>
           </div>
-
         </div>
 
         <!-- --------------news------------ -->
@@ -111,61 +113,63 @@
 
       <!-- --------------side-menu------------ -->
       <div class="side-menu">
+        <!-- --------------ranking------------ -->
         <div class="ranking">
           <h1>RANKING</h1>
           <ul>
             <li>
               <img src="images/ranking.jpg" />
-              <p class="ranking-number">1</p>
+              <img class="rankin one" src="images/icon/rank/one.svg" />
               <p class="ranking-content">
                 HTML/CSSコーディングと切っても切れないWEBブラウザのシェア動向をチェックしよう
               </p>
             </li>
             <li>
               <img src="images/ranking.jpg" />
-              <p class="ranking-number">2</p>
+              <img class="rankin two" src="images/icon/rank/two.svg" />
               <p class="ranking-content">
                 HTML/CSSコーディングと切っても切れないWEBブラウザのシェア動向をチェックしよう
               </p>
             </li>
             <li>
               <img src="images/ranking.jpg" />
-              <p class="ranking-number">3</p>
+              <img class="rankin three" src="images/icon/rank/three.svg" />
               <p class="ranking-content">
                 HTML/CSSコーディングと切っても切れないWEBブラウザのシェア動向をチェックしよう
               </p>
             </li>
             <li>
               <img src="images/ranking.jpg" />
-              <p class="ranking-number">4</p>
+              <p class="rank">4</p>
               <p class="ranking-content">
                 HTML/CSSコーディングと切っても切れないWEBブラウザのシェア動向をチェックしよう
               </p>
             </li>
             <li>
               <img src="images/ranking.jpg" />
-              <p class="ranking-number">5</p>
+              <p class="rank">5</p>
               <p class="ranking-content">
                 HTML/CSSコーディングと切っても切れないWEBブラウザのシェア動向をチェックしよう
               </p>
             </li>
             <li>
               <img src="images/ranking.jpg" />
-              <p class="ranking-number">6</p>
+              <p class="rank">6</p>
               <p class="ranking-content">
                 HTML/CSSコーディングと切っても切れないWEBブラウザのシェア動向をチェックしよう
               </p>
             </li>
             <li>
               <img src="images/ranking.jpg" />
-              <p class="ranking-number">7</p>
+              <p class="rank">7</p>
               <p class="ranking-content">
                 HTML/CSSコーディングと切っても切れないWEBブラウザのシェア動向をチェックしよう
               </p>
             </li>
           </ul>
         </div>
-        <dic class="document">
+        <!-- --------------document------------ -->
+        <div class="document">
           <h1>DOCUMENT</h1>
           <ul>
             <h2>HTML5</h2>
@@ -190,8 +194,11 @@
             <h2>React.js</h2>
             <li>言語仕様</li>
           </ul>
-        </dic>
+        </div>
+
+        <!-- --------------search------------ -->
         <div class="search">
+          <h1>SEARCH</h1>
           <form>
             <input type="text" />
             <button type="submit">検索</button>
@@ -201,13 +208,18 @@
       </div>
     </div>
 
+    <!-- --------------footer------------ -->
     <footer>
       <nav>
         <ul>
-          <li>ABOUT ME</li>
-          <li>SITE MAP</li>
-          <img src="images/icon/twitter.svg" />
-          <img src="images/icon/mail.svg"
+          <li><a class="footer-nav" href="#">ABOUT ME</a></li>
+          <li><a class="footer-nav" href="#">SITE MAP</a></li>
+          <a href="http://twitter.com">
+            <img class="contact-icon" src="images/icon/twitter.svg" />
+          </a>
+          <a href="mailto:example.com">
+            <img class="contact-icon" src="images/icon/mail.svg" />
+          </a>
         </ul>
       </nav>
       <p>Copyright &copy; 2020 kahu</p>

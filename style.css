@@ -1,6 +1,7 @@
 body {
   font-family: "Baloo Tamma 2", cursive;
   font-family: "Quicksand", sans-serif;
+  margin: 0;
 }
 
 .grid-wrapper {
@@ -38,13 +39,14 @@ header nav ul {
 
 .header-nav {
   text-decoration: none;
-  color: black;
   cursor: pointer;
+  font-weight: bold;
+  color: #696969;
 }
 
 .header-nav:visited {
   text-decoration: none;
-  color: black;
+  color: #696969;
 }
 
 /* ------------hot-topic-------------- */
@@ -180,6 +182,8 @@ article {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  font-weight: lighter;
+  font-size: 23px;
 }
 
 .article p {
@@ -199,4 +203,137 @@ article {
   color: white;
 }
 
+/* ------------side-menu-------------- */
+.side-menu {
+  margin-top: 60px;
+  width: 80%;
+}
+
 /* ------------ranking-------------- */
+.ranking h1 {
+  margin: 0;
+  background: url("images/bg-slash.gif") repeat;
+  padding-left: 10px;
+  border-left: solid 5px #314661;
+  color: #696969;
+}
+
+.ranking ul {
+  padding: 0;
+}
+
+.ranking ul li {
+  margin-left: 0;
+  margin-bottom: 30px;
+  list-style-type: none;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+}
+
+.ranking ul li img {
+  display: block;
+}
+
+.ranking ul li p {
+  margin: 0;
+}
+
+.rank {
+  text-align: center;
+  font-weight: bold;
+  color: #696969;
+}
+
+.rankin {
+  width: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.7;
+}
+
+.rankin.one {
+  background-color: #daa520;
+  border-radius: 50%;
+}
+
+.rankin.two {
+  background-color: #b0c4de;
+  border-radius: 50%;
+}
+
+.rankin.three {
+  background-color: #d2691e;
+  border-radius: 50%;
+}
+
+/* ------------ranking-------------- */
+.document h1 {
+  margin-top: 40px;
+  background: url("images/bg-slash.gif") repeat;
+  padding-left: 10px;
+  border-left: solid 5px #314661;
+  color: #696969;
+}
+
+.document h2 {
+  color: #696969;
+}
+
+.document ul li {
+  list-style-type: circle;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+/* ------------search-------------- */
+.search h1 {
+  margin-top: 40px;
+  background: url("images/bg-slash.gif") repeat;
+  padding-left: 10px;
+  border-left: solid 5px #314661;
+  color: #696969;
+}
+
+.search form {
+  margin-left: 40px;
+}
+.search p {
+  font-size: 12px;
+}
+
+/* ------------footer-------------- */
+footer {
+  background: url("images/bg-slash.gif") repeat;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer nav ul li a {
+  padding-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-self: center;
+}
+
+.footer-nav:visited {
+  color: black;
+  text-decoration: none;
+}
+
+footer .contact-icon {
+  padding-top: 20px;
+  width: 30px;
+  margin-right: 40px;
+}
+
+footer p {
+  text-align: center;
+}
